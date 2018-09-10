@@ -6,7 +6,6 @@ def main():
     inicio = time.strftime("%I:%M:%S")
     s = socket()
     s.connect(("mariohernandezvzla.ddns.net", 10000))
-    #s.connect(("181.225.58.106", 10000))
     
     f = open("archivos/recibido.txt", "wb")
     #f = open("archivos/recibido.mp3", "wb")
