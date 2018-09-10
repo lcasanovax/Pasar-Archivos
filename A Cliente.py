@@ -8,7 +8,6 @@ def main():
     s.connect(("mariohernandezvzla.ddns.net", 10000))
     
     f = open("archivos/recibido.txt", "wb")
-    #f = open("archivos/recibido.mp3", "wb")
     
     while True:
         try:
