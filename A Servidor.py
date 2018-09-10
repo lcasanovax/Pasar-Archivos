@@ -11,7 +11,6 @@ def main():
 
     while True:
         f = open("archivos/data.txt", "rb")
-        #f = open("archivos/prueba.mp3", "rb")
         content = f.read(1)
         
         while content:
